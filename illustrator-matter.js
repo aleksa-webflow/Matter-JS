@@ -1,8 +1,5 @@
-<!-- Matter JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
-<script>
-  // Function to check if the window width is desktop
-	function isDesktop() {
+// Function to check if the window width is desktop
+function isDesktop() {
     return window.innerWidth > 767;
   }
   
@@ -209,4 +206,3 @@ var createTag = function (x, y, rectangleWidthLarge, rectangleWidthSmall, textur
 
   var containerElement = document.querySelector(".gravity_trigger");
   observer.observe(containerElement);
-</script>
