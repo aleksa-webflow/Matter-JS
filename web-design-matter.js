@@ -1,5 +1,5 @@
   // Function to check if the window width is desktop
-	function isDesktop() {
+ function isDesktop() {
     return window.innerWidth > 767;
   }
   
